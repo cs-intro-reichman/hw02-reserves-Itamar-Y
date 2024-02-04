@@ -6,20 +6,16 @@ public class InOrder {
 	public static void main (String[] args) {
 
 		int num1 = (int) ( 10.0 * Math.random()); 
+		int num2;
 
 		do {
-			int num2 = (int) ( 10.0 * Math.random()); 
-			int num3 = (int) ( 10.0 * Math.random()); 
-			int num4 = (int) ( 10.0 * Math.random()); 
-		} while (num1 <= num2; num2 <= num3; num3 <= num4)
-			
-		if (num2) {System.out.println(num1 + '\n' num2);}
+			System.out.print(num1 + " ");
+			num2 = num1;
+			num1 = (int) ( 10.0 * Math.random()); 
+
+		} while (num2 <= num1);
 		
 		}
-		
 	
-
-		System.out.println();
-
 	}
 
