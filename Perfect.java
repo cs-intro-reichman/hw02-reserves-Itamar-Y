@@ -14,22 +14,11 @@ public class Perfect {
 				sum = sum + i;
 				ans = ans + " + " + i;}
 			}
-			System.out.println(ans);
 
 			if (var1 != sum) {
-				System.out.println(var1 + " is not a perfect number");
+				ans = var1 + " is not a perfect number";
 			}
+
+			System.out.println(ans);
 	}
 }
-
-
-
-
-
-// int divisors = 0;
- 
- 
-// 		for (int i = 1; i <= whole; i++) {
-// 			if (whole % i == 0) { divisors = i;
-// 				System.out.println(divisors);
-// 			}
