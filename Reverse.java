@@ -13,9 +13,13 @@ public class Reverse {
 			char r = s.charAt(l - i);
 			 System.out.print(r);
 		}
- 
- 
-		int d = l / 2;;
+		int d = 0;
+		
+		if (l%2 == 1) {d = l / 2;
+		} else { 
+			d = (l / 2) - 1;
+		}
+	
 			System.out.println('\n' + "The middle character is " + s.charAt(d)); }
  
  
