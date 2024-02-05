@@ -55,7 +55,7 @@ public class OneOfEachStats {
 		System.out.println("Average: " + average + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + fam2);
 		System.out.println("Number of families with 3 children: " + fam3);
-		System.out.println("Number of families with 4 children or more: " + fam4);
+		System.out.println("Number of families with 4 or more children: " + fam4);
 
 		int MostCommon = 0;
 
