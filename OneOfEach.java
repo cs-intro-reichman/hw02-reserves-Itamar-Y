@@ -12,16 +12,15 @@ public class OneOfEach {
 		int girls = 0;
 		String children = "";
 
-		if (child1 > 0.5) {
-			boys += 1;
-			children += "b ";
-		} else {
-			girls += 1;
-			children += "g ";
-		}
+		// if (child1 > 0.5) {
+		// 	boys += 1;
+		// 	children += "b ";
+		// } else {
+		// 	girls += 1;
+		// 	children += "g ";
+		// }
 		
 		do {
-			// System.out.println(children);
 			child2 = child1;
 			child1 = Math.random();
 			if (child1 > 0.5) {
